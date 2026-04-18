@@ -1,0 +1,28 @@
+# Secrets & Env
+.env
+.env.*
+!.env.example
+
+# Tools & Core
+node_modules/
+target/
+.bloodcandy/
+bloodcandy.exe
+rust/target/
+rust/.env
+
+# Logs & Debug
+*.log
+PROMPT_DEBUG.txt
+run_log.txt
+build_output.txt
+
+# Production
+dist/
+build/
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
