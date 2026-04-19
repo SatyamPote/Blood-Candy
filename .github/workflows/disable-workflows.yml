@@ -1,0 +1,9 @@
+name: Disable Workflows
+on: [push]
+
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disable all workflows
+        run: echo "All workflows are disabled."
